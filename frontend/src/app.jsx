@@ -47,13 +47,14 @@ async function handleTryon() {
 return (
     <div className="app">
       <header className="app-header">
-        <h1>Virtual Jewellery Try-On</h1>
-        <p>Select a piece, upload your photo, and see how it looks on you.</p>
+        <p className="eyebrow">Virtual Atelier</p>
+        <h1>Jewellery, Tried On</h1>
+        <p className="subtitle">Select a piece, upload your photo, and watch it come to life.</p>
       </header>
       <main className="app-main">
         {/*1st setep pick a jewellery item */}
         <section className="section">
-          <h2>1. Choose a piece</h2>
+          <h2><span className="step-num">01</span> Choose your piece</h2>
           <CatalogGrid
             items={catalog}
             selectedId={selectedItem?.id}
@@ -62,7 +63,7 @@ return (
 
         {/*second step upload the right photo based on selected item */}
         <section className="section">
-          <h2>2. Upload your photo</h2>
+          <h2><span className="step-num">02</span> Upload your photo</h2>
 
           {!selectedItem && (
             <p className="hint">Select a jewellery item first to see which photo is needed.</p>
@@ -92,8 +93,6 @@ return (
           >
             {loading ? "Generating..." : "Try On"}
           </button>
-
-          {/*this one shows which photo is missing without being annoying about it */}
           {selectedItem && !canSubmit() && !loading && (
             <p className="hint">
               {needsHandPhoto && !handPhoto && "Upload a hand photo to continue."}
@@ -113,7 +112,7 @@ return (
           </div>)}{/* result */}
         {result && !loading && (
           <section className="section">
-            <h2>Result</h2>
+            <h2><span className="step-num">03</span> The reveal</h2>
             <ResultPanel result={result} itemName={selectedItem?.name} />
           </section>
         )}
