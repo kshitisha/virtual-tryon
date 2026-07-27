@@ -1,0 +1,51 @@
+[
+{
+"id":"nk_001",
+"name":"gold layered pendant necklace",
+"type":"necklace",
+"material":"yellow gold",
+"placement":"collarbone",
+"image":"catalog/images/nk_001.jpg",
+"description":"delicate triple layer gold chain with a teardrop pendant"
+},
+
+{
+"id":"rg_001",
+"name":"rose gold solitaire ring",
+"type":"ring",
+"material":"rose gold",
+"placement":"ring finger",
+"image":"catalog/images/rg_001.png",
+"description":"classic round solitaire with a thin rose gold band"
+},
+
+{
+"id":"er_001",
+"name":"diamond earrings",
+"type":"earring",
+"material":"white gold",
+"placement":"earlobes",
+"image":"catalog/images/er_001.png",
+"description":"small diamond, approximately 15mm diameter"
+},
+
+{
+"id":"br_001",
+"name":"silver charm bracelet",
+"type":"bracelet",
+"material":"sterling silver",
+"placement":"wrist",
+"image":"catalog/images/br_001.png",
+"description":"thin sterling silver chain with three small charms"
+},
+
+{
+"id":"nk_002",
+"name":"pearl choker",
+"type":"necklace",
+"material":"freshwater pearl",
+"placement":"base of neck",
+"image":"catalog/images/nk_002.png",
+"description":"single strand freshwater pearl choker in 14 inches"
+}
+]
