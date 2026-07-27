@@ -4,9 +4,7 @@ Upload a photo, pick a piece, see it on you — in seconds.
 
 A full-stack virtual try-on tool for jewellery: pick an item from the catalogue, upload a photo, and get a photorealistic AI-generated image of yourself wearing it.
 
-![Result](screenshots/result.png)
 
----
 
 ## How it works
 
@@ -17,6 +15,9 @@ A full-stack virtual try-on tool for jewellery: pick an item from the catalogue,
 ![Dashboard](screenshots/dashboard.png)
 ![Piece selected](screenshots/jewellery_selected.png)
 ![Photo uploaded](screenshots/image_uploaded.png)
+![Result](screenshots/result.png)
+
+
 
 ---
 
